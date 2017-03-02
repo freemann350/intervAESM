@@ -1,12 +1,12 @@
-# intervAESM - Versão Portuguesa
+# intervAESM - PT
 
-Este projeto tem como fim ajudar os professores da área técnica a registar e a consultar intervenções informáticas que fizeram.
-Inspirado em template "Dashgum free"
+Este projeto tem como fim ajudar os professores de informática a registar e a consultar intervenções informáticas realizadas.
+Tema baseado em "Dashgum free"
 
-# intervAESM - English version
+# intervAESM - EN
 
-This project comes with the end to help teachers from the technical area to register and consult their IT interventions.
-Inspired on the template "Dashgum free"
+This project has the objective of helping IT teachers to register and view their IT interventions.
+Theme based on "Dashgum free"
 
-#Demo
+# Demo
 https://freemann350.github.io/intervAESM/login.html
