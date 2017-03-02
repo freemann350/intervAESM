@@ -1,0 +1,84 @@
+SEMPRE QUE SE EDITAR O SITE, FAVOR DE SE EDITAR ESTA NOTA COM AS ALTERAÇÕES FEITAS, E AGRADECIA-SE QUE SE PUSESSEM TODAS AS 
+ALTERAÇÕES AQUI.
+
+TODOS NÓS OS 3 AGRADECEMOS
+
+PS: 1 - NUNCA APAGUEM AS NOTAS E OS DIAS DAS EDIÇÕES, PODEM SER ÚTEIS PARA ENCONTRAR CERTOS BUGS E AFINS.
+    2 - NÃO APAGUEM AS PÁGINAS, MOVAM-NAS PARA A PASTA "unused"
+--------------------------------------------------------------------------------------------------------------------------
+
+ÚLTIMA EDIÇÃO: 10/02/017
+
+--------------------------------------------------------------------------------------------------------------------------
+
+EDIÇÃO DIA 06/02/017
+EDITOR: ALEXANDRE GASPAR
+
+ - ADICIONOU-SE JQUERY PARA CONFIRMAÇÃO DE SAÍDA;
+ - IMAGENS E ALGUM TEXTO DO INDEX EDITADAS PARA NÃO SEREM ARRASTADAS/SELECIONADAS;
+ - BACKSTRETCH COM NOVAS IMAGENS: PRECISA DE MELHOR QUALIDADE DE IMAGEM, AGORA PASSA IMAGENS POR TEMPO;
+ - ADIÇÃO DE 2 NOVAS PÁGINAS - EDIÇÃO E VISUALIZAÇÃO DE "AS MINHAS INTERVENÇÕES";
+ - TEXTO "INTERVENÇÕES AESM" E DA SIDEBAR JÁ NÃO É MAIS SELECIONÁVEL AO FAZER DUPLO CLIQUE NO TOGGLE DO MENU.
+
+--------------------------------------------------------------------------------------------------------------------------
+
+EDIÇÃO DIA 07/02/017
+
+ - REPAROU-SE O ARRASTAR DOS SUBMENUS E APARECER MAL A SOMBRA A SUA SOMBRA;
+ - OUTRAS ALTERAÇÕES MENORES RELACIONADAS COM FONTS E AFINS.
+
+--------------------------------------------------------------------------------------------------------------------------
+
+EDIÇÃO DIA 09/02/017
+EDITOR: ALEXANDRE GASPAR
+   
+ - REFORMULAÇÃO DAS CONSULTAS: AGORA SÃO ACEDIDAS NA SIDEBAR, EMBORA PRECISEM DE CADA PÁGINA EDITADA, PÁGINA "CONSULTAS" 
+   É INEXISTENTE (APENAS ACEDIDA PELO FICHEIROS E NÃO POR LINKS);   
+ - ADIÇÃO DE 5 PÁGINAS (CONSULTAS): CONSULTA ENTRE DIAS (consdias.html), CONSULTA DE PROFESSOR (consprof.html), CONSULTA DOS 
+   ÚLTIMOS 7 DIAS (consemana.html), CONSULTA DE EQUIPAMENTO (consequip.html), TODAS AS INTERVENÇÕES (constotal.html)   
+ - NOVA IMAGEM DE QUADRO INTERATIVO;
+
+--------------------------------------------------------------------------------------------------------------------------
+
+EDIÇÃO DIA 10/02/017
+EDITOR: ALEXANDRE GASPAR
+
+ - REMOÇÃO DO FICHEIRO .DS_STORE 
+ - CONSULTAS: FORMATAÇÃO DAS "COMBO BOXES" PARA TEREM O NOME DO OBJETO A CONSULTAR (APENAS ESTÉTICO);
+ - MUDANÇA DE POSIÇÃO DA PÁGINA DE CONSULTA "ÚLTIMA SEMANA" PARA 1 POSIÇÃO ATRÁS DE "TODAS AS INTERVENÇÕES".
+
+--------------------------------------------------------------------------------------------------------------------------
+
+EDIÇÃO DIA 17/02/2017
+EDITOR: FRANCISCO CANEIRA
+
+ - ADIÇÃO DE UM NOVO MÉTODO DE CALENDÁRIO PARA CASOS EM QUE O FIREFOX/OUTROS BROWSERS NÃO DETETEM O TYPE="DATE".
+
+--------------------------------------------------------------------------------------------------------------------------
+
+EDIÇÃO DIA 20/02/017
+EDITOR: ALEXANDRE GASPAR
+
+ - REPARAÇÃO DA FORMATAÇÃO DO DATEPICKER PARA PÁGINAS QUE PRECISEM DE DATA (novoequip.HTML NÃO EDITADO, MUDAR PARA FORM CORRETO)
+
+--------------------------------------------------------------------------------------------------------------------------
+EDIÇÃO DIA 20/02/017
+EDITOR: FRANCISCO CANEIRA
+
+ - ADIÇÃO DO ICON DO CALENDÁRIO NAS INTERVENÇÕES
+ - CORREÇÃO DO GO-TOP DO FOOTER DAS CONSULTAS
+ - ELIMINAÇÃO DA "ÚLTIMA SEMANA" DAS CONSULTAS
+ - CORREÇÃO DA PÁGINA DE LOGIN NO MICROSOFT EDGE
+
+--------------------------------------------------------------------------------------------------------------------------
+EDIÇÃO DIA 21/02/017
+EDITOR: ALEXANDRE GASPAR
+ 
+ - REMOÇÃO DE VÁRIOS FICHEIROS CSS/JS QUE NÃO ERAM USADOS PARA TORNAR AS PASTAS MAIS LEVES A COMPACTA
+ - ADIÇÃO DE TIMEPICKER PARA CASOS EM QUE ALGUNS BROWSERS NÃO DETETAVAM A PROPRIEDADE TYPE="TIME"
+
+--------------------------------------------------------------------------------------------------------------------------
+EDIÇÃO DIA 02/03/017
+
+ - REMOÇÃO DE CERTAS LINHAS DE COMENTÁRIO E IDENTAÇÃO DO PROGRAMA
+ - ADIÇÃO DA PÁGINA settings.HTML, onde o utilizador pode fazer
