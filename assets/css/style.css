@@ -2251,6 +2251,12 @@ label {
     padding: 10px 0;
 }
 
+#footer-nome {
+  font-size: 14px;
+  padding: 0 15px;
+}
+
+
 
 .go-top {
     margin-right: 1%;
@@ -2260,7 +2266,8 @@ label {
     height: 20px;
     border-radius: 50%;
     -webkit-border-radius: 50%;
-    margin-top: 10px
+
+    text-align: center;
 }
 
 .go-top i {
@@ -2276,9 +2283,9 @@ label {
     margin-top: -3px;
 }
 
-.support {
+#footer-suporte {
   color: white
 }
-.support:hover {
+#footer-suporte:hover {
   color: #0d4c7c
 }
