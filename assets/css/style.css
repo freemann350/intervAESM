@@ -1955,7 +1955,11 @@ label {
 /*LOGIN CONFIGURATION PAGE*/
 .form-login {
 	max-width: 330px;
+<<<<<<< HEAD
 	margin: 120px auto 0;
+=======
+	margin: 100px auto 0;
+>>>>>>> origin/master
 	background: #fff;
 	border-radius: 5px;
 	-webkit-border-radius: 5px;
