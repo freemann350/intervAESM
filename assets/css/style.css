@@ -1955,7 +1955,7 @@ label {
 /*LOGIN CONFIGURATION PAGE*/
 .form-login {
 	max-width: 330px;
-	margin: 200px auto 0;
+	margin: 120px auto 0;
 	background: #fff;
 	border-radius: 5px;
 	-webkit-border-radius: 5px;
@@ -2284,4 +2284,32 @@ label {
 }
 .support:hover {
   color: #0d4c7c;
+}
+
+#filtrosheader {
+height: 35px;
+background-color: #009fd1;
+cursor: pointer;
+color: white;
+}
+
+#filtrosheader:hover{
+background-color: #0d4c7c;
+}
+
+#filtrostext {
+line-height: 37px;
+font-weight: bold;
+}
+
+#filtrosdown {
+text-align: right;
+clear: both;
+float: right;
+line-height: 37px;
+transition: 0.1s ease-in all;
+}
+
+.selectfiltros:focus option:first-of-type {
+    display: none;
 }
