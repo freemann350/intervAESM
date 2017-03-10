@@ -257,7 +257,7 @@ ul.top-menu > li > .logout {
 
 /*sidebar navigation*/
 
-#sidebar /*SIDEBAR COR*/{
+#sidebar {
     width: 210px;
     height: 100%;
     position: fixed;
@@ -2247,11 +2247,11 @@ label {
 
 /*footer*/
 .site-footer {
-    background: #009fd1;
-    color: #fff;
-    padding: 10px 0;
-    padding-bottom: 4px;
-    padding-top: 5px;
+  background: #009fd1;
+  color: #fff;
+  padding: 10px 0;
+  padding-bottom: 4px;
+  padding-top: 5px;
 }
 
 
@@ -2313,4 +2313,8 @@ transition: 0.1s ease-in all;
 
 .selectfiltros:focus option:first-of-type {
     display: none;
+}
+
+textarea {
+  resize: vertical;
 }
