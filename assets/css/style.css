@@ -7,7 +7,7 @@ Premium: http://www.gridgum.com
 */
 
 /* Import fonts */
-@import url(http://fonts.googleapis.com/css?family=Ruda:400,700,900);
+@import url(//fonts.googleapis.com/css?family=Ruda:400,700,900);
 
 /* BASIC THEME CONFIGURATION */
 body {
@@ -117,8 +117,8 @@ a, a:hover, a:focus {
 
 .btn-theme {
   color: #fff;
-  background-color: #0d4c7c;
-  border-color: #0d4c7c;
+  background-color: #009fd1;
+  border-color: #009fd1;
 }
 .btn-theme:hover,
 .btn-theme:focus,
@@ -126,8 +126,8 @@ a, a:hover, a:focus {
 .btn-theme.active,
 .open .dropdown-toggle.btn-theme {
   color: #fff;
-  background-color: #009fd1;
-  border-color: #0d4c7c;
+  background-color: #0d4c7c;
+  border-color: #009fd1;
 }
 
 .btn-theme02 {

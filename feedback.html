@@ -28,13 +28,11 @@
         </header>
 
         <aside>
-            <div id="sidebar" class="nav-collapse ">
-
+            <div id="sidebar" class="nav-collapse">
                 <ul class="sidebar-menu" id="nav-accordion">
 
-                    <p class="centered">
-                        <a href="settings.html"><img src="assets/img/ui-sam.jpg" class="img-circle unselectable" width="60"></p>
-                    <h5 class="centered">Admin</h5></a>
+                  <p class="centered"><a href="settings.html"><img src="assets/img/ui-sam.jpg" class="img-circle" width="60"></p>
+                  <h5 class="centered">Admin</h5></a>
 
                     <li class="mt">
                         <a href="index.html">
@@ -49,6 +47,7 @@
                             <span>Registos</span>
                         </a>
                         <ul class="sub">
+                            <li><a href="pedidos.html" style="background: transparent;">Pedido de intervenção</a></li>
                             <li><a href="registarint.html" style="background: transparent;">Intervenções</a></li>
                             <li><a href="atualizaequip.html" style="background: transparent;">Atualizar equipamento</a></li>
                             <li><a href="registarnovoequip.html" style="background: transparent;">Novo equipamento</a></li>
@@ -56,10 +55,14 @@
                     </li>
 
                     <li class="sub-menu">
-                        <a href="minhasinterv.html">
+                        <a href="javascript:;">
                             <i class="fa fa-book"></i>
-                            <span>As minhas intervenções</span>
+                            <span>Os meus registos</span>
                         </a>
+                        <ul class="sub">
+                            <li><a href="minhasinterv.html" style="background: transparent;">Intervenções</a></li>
+                            <li><a href="meusped.html" style="background: transparent;">Pedidos</a></li>
+                        </ul>
                     </li>
 
                     <li class="sub-menu">
@@ -70,6 +73,7 @@
                         <ul class="sub">
                             <li><a href="consinterv.html" style="background: transparent;">Intervenções</a></li>
                             <li><a href="conspedidos.html" style="background: transparent;">Pedidos</a></li>
+                            <li> <a href="consequip.html"style="background: transparent;">Equipamento</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -85,6 +89,7 @@
             </div>
         </aside>
 
+
         <!--MAIN CONTENT-->
         <section id="main-content">
             <section class="wrapper site-min-height" id="wrapping">
@@ -94,7 +99,7 @@
                 <div class="row mt">
                   <div class="form-panel">
                     <p style="font-size:13px;"><i class="fa fa-angle-right fa-lg"></i>&nbsp; Todos os programas podem ter erros, e este não é excepção.<br>&emsp;Em caso de encontrar erros ou caso tenha algo a relatar acerca deste programa, preencha o seguinte formulário.<br>&emsp;<b>A sua opinião conta.</b></p>
-                      <form class="form-horizontal style-form" method="get">
+                      <form class="form-horizontal style-form" method="post">
                           <div class="form-group">
 
                                 <label class="col-sm-2 col-sm-2 control-label">Descrição</label>
