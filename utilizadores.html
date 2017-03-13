@@ -122,12 +122,11 @@
                                     <h4 class="mb"><i class="fa fa-angle-right"></i> Consultar por tipo de utilizador</h4>
                                     <div class="form-group">
                                         <div class="form-group">
-                                        <select class="form-control selectfiltros">
-                                        <option>Escolha um equipamento...</option>
-                                        <option>Computador</option>
-                                        <option>Projetor</option>
-                                        <option>Quadro interativo</option>
-                                        <option>Outros</option>
+                                        <select class="form-control">
+                                        <option selected disabled hidden>Escolha um tipo de utilizador...</option>
+                                        <option>Admin</option>
+                                        <option>Técnico</option>
+                                        <option>Professor</option>
                                       </select>
                                       </div>
                                     </div>
@@ -136,7 +135,7 @@
                                     <br>
                                     <h4 class="mb"><i class="fa fa-angle-right"></i> Consultar por professor</h4>
                                     <div class="form-group">
-                                          <input type="text" class="form-control" placeholder="Escreva aqui o nome do professor...">
+                                      <input type="text" class="form-control" placeholder="Escreva aqui o nome do professor...">
                                     </div>
                                     <br>
                                     <input type="submit" class="btn btn-primary" value="Procurar">
@@ -151,6 +150,7 @@
                                     <tr>
                                         <th>#</th>
                                         <th>Nome</th>
+                                        <th>Tipo de utilizador</th>
                                         <th>Ação</th>
                                     </tr>
                                 </thead>
@@ -158,18 +158,21 @@
                                     <tr>
                                         <td>1</td>
                                         <td>Professor A</td>
+                                        <td>Admin</td>
                                         <td><a href="editar.html"><i title="Editar" class="fa fa-pencil fa-lg" aria-hidden="true"></i></a>
                                         <a href="#"><i title="Eliminar" class="fa fa-times fa-lg deleteRecord" aria-hidden="true"></i></a></td>
                                     </tr>
                                     <tr>
                                         <td>2</td>
                                         <td>Professor B</td>
+                                        <td>Técnico</td>
                                         <td><a href="editar.html"><i title="Editar" class="fa fa-pencil fa-lg" aria-hidden="true"></i></a>
                                         <a href="#"><i title="Eliminar" class="fa fa-times fa-lg deleteRecord" aria-hidden="true"></i></a></td>
                                     </tr>
                                     <tr>
                                         <td>3</td>
                                         <td>Professor C</td>
+                                        <td>Professor</td>
                                         <td><a href="editar.html"><i title="Editar" class="fa fa-pencil fa-lg" aria-hidden="true"></i></a>
                                         <a href="#"><i title="Eliminar" class="fa fa-times fa-lg deleteRecord" aria-hidden="true"></i></a></td>
                                     </tr>
