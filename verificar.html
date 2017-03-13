@@ -105,7 +105,7 @@
         <!--MAIN CONTENT-->
         <section id="main-content">
             <section class="wrapper site-min-height">
-                <h3><i class="fa fa-angle-right"></i> Registo de intervenções - Visualização</h3>
+                <h3><i class="fa fa-angle-right"></i> Registo de intervenções - Visualização de dados</h3>
                 <div class="row mt">
                     <div class="form-panel">
 
@@ -142,9 +142,7 @@
                                 <div class="col-sm-10">
                                     <p class="form-control-static">Cabos partidos</p>
                                     <br>
-                                    <a href="minhasinterv.html">
-                                        <input type="button" class="btn btn-primary" value="Voltar">
-                                    </a>
+                                        <input type="button" class="btn btn-primary" value="Voltar" onclick="goBack()">
                                 </div>
                             </div>
                         </form>
@@ -175,6 +173,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.0.3/jquery-confirm.min.js"></script>
     <script src="assets/js/jquery.confirm.js"></script>
     <script src="assets/js/common-scripts.js"></script>
+    <button onclick="goBack()">Go Back</button>
+      <script>
+      function goBack() {
+          window.history.back();
+      }
+</script>
 </body>
 
 </html>
